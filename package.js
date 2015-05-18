@@ -8,7 +8,9 @@ Package.describe({
 Package.on_use(function(api) {
     api.use('momentjs:moment@2.9.0', 'client');
     api.add_files([
+        'export.js', 
         'lib/bootstrap-daterangepicker/daterangepicker-bs3.css',
-        'lib/bootstrap-daterangepicker/daterangepicker.js'
+        'lib/bootstrap-daterangepicker/daterangepicker.js',
+        'clear.js'
     ], 'client');
 });
